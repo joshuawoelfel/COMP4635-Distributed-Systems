@@ -2,7 +2,7 @@
 ## Assignment #3: Java RMI Client-Server Phrase Guessing Game with Advanced Features
 
 #### Part of the design had to adhere to instructor specifications.
-**Please view `COMP3612 Assignment 2.pdf` for full technical requirements.**
+**Please view `COMP4635_W23_A2.pdf and COMP4635_W23_A3.pdf` and  for full technical requirements.**
 
 #### This was a group project, I am the sole author of the following: 
 - **PhraseGuessingGameServerImpl.java:** Manages game interactions and state for multiple clients, ensuring synchronized access and consistent gameplay across different sessions 
@@ -16,11 +16,13 @@
       
 - **ClientState.java:** Provides methods for managing individual client sessions. Used by PhraseGuessingGameServerImpl.
     1. State Management: The ClientState class encapsulates all necessary details about a client’s current session, including user information (User object), current game state (Game object), and session activity status.
-    2. Cached Responses: The cached_response field stores the last response sent to the client. This feature supports deduplication by allowing the server to resend the same response for duplicate requests, rather than recalculating or reprocessing the request. 
+    2. Cached Responses: The cached_response field stores the last response sent to the client. This feature supports deduplication by allowing the server to resend the same response for duplicate requests, rather than 
+                         recalculating or reprocessing the request. 
     3. Activity Tracking: The class tracks whether a client is active or not, which is used to determine if the client is still connected or has timed out due to inactivity. 
     
-- **Game.java: ** Contains the game logic of the application. Utilized by PhraseGuessingGameServerImpl.
-    1. Game State Management: It maintains the state of the game, including the current phrase to be guessed, the representation of the phrase as it is revealed through player guesses, and the count of failed attempts allowed before the game is lost.
+- **Game.java:** Contains the game logic of the application. Utilized by PhraseGuessingGameServerImpl.
+    1. Game State Management: It maintains the state of the game, including the current phrase to be guessed, the representation of the phrase as it is revealed through player guesses, and the count of failed attempts 
+                              allowed before the game is lost.
     2. Game Progress Feedback: It provides feedback to the player and the server about the current status of the game, including the updated visual representation of the phrase and the number of remaining attempts.
     3. End-of-Game Determination: The class determines when the game ends, either through successful completion of the phrase or exhaustion of the allowed failed attempts, and it resets or updates the game environment accordingly for subsequent rounds.
     
