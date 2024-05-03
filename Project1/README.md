@@ -1,5 +1,5 @@
 # COMP 4635
-## Assignment #1: Java Phrase Guessing Game Overview
+## Assignment #1: Java Phrase Guessing Game
 
 #### Part of the design had to adhere to instructor specifications.
 **Please view `COMP4635_W23_A1.pdf` for full technical requirements.**
@@ -26,7 +26,7 @@
 
 ---
 
-### Java Phrase Guessing Game Overview
+### Overview
 
 This project involves developing a Java client-server distributed application that allows users to play a phrase guessing game. The client interacts with the server to guess words selected by the server based on a chosen game level.
 
