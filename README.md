@@ -13,7 +13,7 @@ This project develops a Java-based distributed application for a phrase guessing
 
 An extension of Project 2 (not included due to redundancy), this version introduces Java RMI for client-server communication and includes advanced features such as client failure detection, recovery mechanisms, and request deduplication with idempotency keys.
 
-[View Project 2](/Project2)
+[View Project 2](/Project3)
 
 ## Technologies Used
 - Java
