@@ -2,7 +2,7 @@
 ## Assignment #1: Java Phrase Guessing Game Overview
 
 #### Part of the design had to adhere to instructor specifications.
-**Please view `COMP3612 Assignment 2.pdf` for full technical requirements.**
+**Please view `COMP4635_W23_A1.pdf` for full technical requirements.**
 
 #### This was a group project, I am the sole author of the following: 
 - **IndirectionServer.java:** This microservice serves as a coordination layer between various client requests and other microservices, acting as an intermediary to facilitate communication and service orchestration. 
