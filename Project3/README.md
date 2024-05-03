@@ -98,7 +98,3 @@ public interface UserAccounts extends Remote {
 - **Gameplay Interface**: Implements a simple command-line interface for initiating games, making guesses, and managing words.
 - **Heartbeat Mechanism**: Spawns a separate thread to send heartbeats to the server, ensuring ongoing session validity.
 
-### Future Enhancements
-- **Data Persistence**: Enhance the server to save game states and user data to disk, allowing recovery from restarts and maintaining consistency across sessions.
-- **Scoreboard Service**: Implement a microservice to calculate and display a scoreboard, ranking players based on their performance.
-
