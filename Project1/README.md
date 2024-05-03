@@ -1,8 +1,8 @@
 # COMP 4635
-## Assignment #1: Java Phrase Guessing Game Overview
+## Assignment #1: Java Phrase Guessing Game
 
 #### Part of the design had to adhere to instructor specifications.
-**Please view `COMP3612 Assignment 2.pdf` for full technical requirements.**
+**Please view `COMP4635_W23_A1.pdf` for full technical requirements.**
 
 #### This was a group project, I am the sole author of the following: 
 - **IndirectionServer.java:** This microservice serves as a coordination layer between various client requests and other microservices, acting as an intermediary to facilitate communication and service orchestration. 
@@ -15,7 +15,7 @@
     2. Session Management: Manages individual game sessions for connected clients. It creates a new session for each connection, handles game-related commands (like starting a new game or ending the current game), and maintains the state of ongoing games.
     3. Concurrent Client Handling: Utilizes a thread pool to manage multiple client connections efficiently. The server can handle up to 128 concurrent clients.
 
-- **Game.java: ** Contains the game logic of the application. Utilized by GameServer.
+- **Game.java:** Contains the game logic of the application. Utilized by GameServer.
     1. Game State Management: It maintains the state of the game, including the current phrase to be guessed, the representation of the phrase as it is revealed through player guesses, and the count of failed attempts allowed before the game is lost.
     2. Game Progress Feedback: It provides feedback to the player and the server about the current status of the game, including the updated visual representation of the phrase and the number of remaining attempts.
     3. End-of-Game Determination: The class determines when the game ends, either through successful completion of the phrase or exhaustion of the allowed failed attempts, and it resets or updates the game environment accordingly for subsequent rounds.
@@ -26,7 +26,7 @@
 
 ---
 
-### Java Phrase Guessing Game Overview
+### Overview
 
 This project involves developing a Java client-server distributed application that allows users to play a phrase guessing game. The client interacts with the server to guess words selected by the server based on a chosen game level.
 
