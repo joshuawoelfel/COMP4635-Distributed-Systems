@@ -30,7 +30,3 @@ These projects were completed as part of the coursework for COMP 4635 at Mount R
 
 ## Contact
 For any inquiries, please reach out to joshua.woelfel@gmail.com
-
----
-
-This README is structured to give a clear, professional presentation of your projects, their context, and their technical and academic details, suitable for both educational review and professional showcase on GitHub.
